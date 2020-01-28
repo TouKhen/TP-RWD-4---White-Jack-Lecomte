@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.weight-600{
+    font-weight: 600;
+}
+
+.weight-500{
+    font-weight: 500;
+}
+
+.weight-400{
+    font-weight: 400;
+}
+
+.weight-300{
+    font-weight: 300;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+header{
+    width: 100%;
+}
+
+header nav{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+    vertical-align: middle;
+    margin: 0 20px;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1.5px solid black;
+    transition: 0.5s ease-in-out;
+}
+
+#white-logo{
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 17px;
+}
+
+header nav ul{
+    display: inline-block;
+}
+
+header nav ul li:first-child{
+    margin-left: 87px;
+}
+
+header nav p{
+    color: grey;
+    display: inline-block;
+}
+
+#searchbar{
+    display: inline-block;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+}
+
+.button i{
+    color: grey;
+}
+
+.champ{
+    width: 90px;
+    border: none;
+    color: grey;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    background-image: url("../img/black.jpg");
+    padding: 90px 0;
+    margin: 0;
+}
+
+section{
+    width: 1200px;
+    margin: 30px auto;
+}
+
+.news{
+    width: 67%;
+}
+
+.news img{
+    float: left;
+    width: 350px;
+    height: 300px;
+}
+
+.news p,a{
+    display: inline-block;
+    max-width: 54%;
+    margin: 0;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.news hr{
+    width: 54%;
+    color: grey;
+}
+
+.news p:nth-child(2){
+    font-size: 11px;
+    color: grey;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.news p:nth-child(3){
+    font-size: 25px;
+    max-width: 40%;
+}
+
+.news a:nth-child(4){
+    color: grey;
+    margin: 15px 15px;
+}
+
+.news p:nth-child(6){
+    color: grey;
+}
+
+.news a:last-child{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: black;
+    font-weight: 500;
+}
