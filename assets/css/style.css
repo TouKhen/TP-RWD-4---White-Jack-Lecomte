@@ -297,6 +297,7 @@ section{
 
 #tags button:hover{
     border: 1px solid black;
+    color: black;
 }
 
 hr{
@@ -316,6 +317,53 @@ hr{
 }
 
 footer{
-    background-color: black;
-    height: 200px;
+    background-color: rgb(34, 34, 34);
+}
+
+#footer{
+    width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 400px;
+}
+
+#footer-posts{
+    width: 380px;
+}
+
+#footer-posts p{
+    color: white;
+    font-size: 20px;
+    padding-top: 60px;
+}
+
+.footer-popular-posts{
+    width: 100%;
+    height: 57px;
+    margin-bottom: 30px;
+}
+
+.footer-popular-posts img{
+    width: 20%;
+    height: 55px;
+    float: left;
+}
+
+.footer-popular-posts a:nth-child(2){
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    max-width: 75%;
+}
+
+.footer-popular-posts a:nth-child(3){
+    color: grey;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+#zebi{
+    width: 100%;
 }
