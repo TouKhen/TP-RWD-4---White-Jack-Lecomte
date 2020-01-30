@@ -324,17 +324,19 @@ footer{
     width: 1200px;
     margin: 0 auto;
     box-sizing: border-box;
-    height: 400px;
+    height: 500px;
 }
 
 #footer-posts{
     width: 380px;
+    float: left;
 }
 
 #footer-posts p{
     color: white;
     font-size: 20px;
     padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .footer-popular-posts{
@@ -366,4 +368,54 @@ footer{
 
 #zebi{
     width: 100%;
+}
+
+#footer-about{
+    width: 380px;
+    float: left;
+    margin-left: 20px;
+}
+
+#footer-about p:first-child{
+    color: white;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#footer-about p:nth-child(2){
+    color: grey;
+    line-height: 25px;
+}
+
+#footer-about p:nth-child(3){
+    color: grey;
+    line-height: 25px;
+}
+
+#footer-icons a{
+    text-decoration: none;
+    color: grey;
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    font-size: 24px;
+    border: 1px solid rgb(85, 85, 85);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    margin-left: 13px;
+}
+
+#footer-contact{
+    width: 380px;
+    float: left;
+    margin-left: 20px;
+}
+
+#footer-contact p:first-child{
+    color: white;
+    font-size: 20px;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
