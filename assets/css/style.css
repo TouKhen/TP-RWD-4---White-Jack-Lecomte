@@ -7,6 +7,18 @@ body{
     clear: both;
 }
 
+.weight-900{
+    font-weight: 900;
+}
+
+.weight-800{
+    font-weight: 800;
+}
+
+.weight-700{
+    font-weight: 700;
+}
+
 .weight-600{
     font-weight: 600;
 }
@@ -206,7 +218,7 @@ section{
 
 #right-section ul{
     padding-left: 0;
-    margin-bottom: 30px;
+    margin-bottom: 20spx;
 }
 
 #right-section ul li{
@@ -224,4 +236,38 @@ section{
 
 #right-section ul li:last-child{
     border-bottom: 1px solid rgb(211, 211, 211);
+}
+
+#posts{
+    width: 100%;
+}
+
+#posts p{
+    font-size: 20px;
+}
+
+.popular-posts{
+    width: 100%;
+}
+
+.popular-posts img{
+    width: 400px;
+    height: 200px;
+}
+
+.popular-posts a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.popular-posts a:nth-child(2){
+    font-size: 19px;
+}
+
+.popular-posts a:last-child{
+    color: grey;
+    font-size: 13px;
 }
