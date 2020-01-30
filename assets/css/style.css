@@ -168,8 +168,60 @@ section{
 
 #left-section{
     width: 800px;
+    float: left;
 }
 
 #pages{
-    
+    margin-top: 30px;
+}
+
+#pages a{
+    display: inline-block;
+    color: grey;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 9px;
+    margin: 0 5px;
+}
+
+#pages a:active{
+    color: black;
+    border: 1px solid black;
+}
+
+#pages a:nth-child(3){
+    color: black;
+    border: 1px solid black;
+}
+
+#right-section{
+    width: 400px;
+    float: left;
+}
+
+#right-section ul{
+    padding-left: 0;
+    margin-bottom: 30px;
+}
+
+#right-section ul li{
+    width: 100%;
+    list-style: circle;
+    border-top: 1px solid rgb(211, 211, 211);
+    padding: 10px 0;
+}
+
+#right-section ul li a{
+    color: grey;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#right-section ul li:last-child{
+    border-bottom: 1px solid rgb(211, 211, 211);
 }
