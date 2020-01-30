@@ -40,6 +40,10 @@ li{
     display: inline-block;
 }
 
+hr{
+    color: rgb(211, 211, 211);
+}
+
 header{
     width: 100%;
 }
@@ -239,7 +243,7 @@ section{
 }
 
 #posts{
-    width: 100%;
+    width: 400px;
 }
 
 #posts p{
@@ -248,11 +252,12 @@ section{
 
 .popular-posts{
     width: 100%;
+    margin-bottom: 20px;
 }
 
 .popular-posts img{
     width: 400px;
-    height: 200px;
+    height: 150px;
 }
 
 .popular-posts a{
@@ -264,10 +269,53 @@ section{
 }
 
 .popular-posts a:nth-child(2){
-    font-size: 19px;
+    font-size: 18px;
 }
 
 .popular-posts a:last-child{
     color: grey;
     font-size: 13px;
+}
+
+#tags{
+    width: 400px;
+}
+
+#tags p{
+    font-size: 20px;
+}
+
+#tags button{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 10px;
+    margin: 3px;
+    background-color: transparent;
+}
+
+#tags button:hover{
+    border: 1px solid black;
+}
+
+hr{
+    margin: 25px 0;
+}
+
+#blog{
+    width: 400px;
+}
+
+#blog p:first-child{
+    font-size: 20px;
+}
+
+#blog p:last-child{
+    color: grey;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
 }
