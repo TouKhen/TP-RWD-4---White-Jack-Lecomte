@@ -552,20 +552,25 @@ footer{
         width: 100%;
     }
 
-    .popular-posts a:first-child{
-        width: 45%;
+    .popular-posts img {
+        width: 100%;
+        height: 18vw;
+    }
+
+    .popular-posts a:first-child {
+        width: 30%;
     }
 
     .popular-posts a:nth-child(2){
         font-size: 18px;
         float: right;
-        width: 400px;
+        width: 67%;
     }
 
-    .popular-posts a:last-child{
+    .popular-posts a:last-child {
         position: relative;
-        left: 488px;
-        bottom: 105px;
+        left: 33%;
+        bottom: 10vw;
         width: unset;
     }
 
