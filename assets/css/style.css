@@ -180,6 +180,7 @@ section{
     margin-top: 15px;
     color: black;
     font-weight: 500;
+    width: 100%;
 }
 
 #left-section{
@@ -449,3 +450,103 @@ footer{
     border: 1px solid rgb(70, 70, 70);
     color: rgb(70, 70, 70);
 }
+
+@media (max-width: 1199px) and (min-width:899px){
+    header nav{
+        width: 890px;
+    }
+
+    header nav a{
+        margin: 0px 10px;
+        font-size: 13px;
+    }
+
+    header nav ul li:first-child{
+        margin-left: 10px;
+    }
+
+    section{
+        width: 100%;
+    }
+
+    #left-section{
+        width: 890px;
+        float: unset;
+        margin: 0 auto;
+    }
+
+    #right-section{
+        width: 890px;
+        float: unset;
+        margin: 0 auto;
+    }
+
+    .news hr{
+        width: 51.5%;
+    }
+
+    #posts{
+        width: 890px;
+    }
+
+    .popular-posts a:first-child{
+        width: 45%;
+    }
+
+    .popular-posts a:nth-child(2){
+        font-size: 18px;
+        float: right;
+        width: 400px;
+    }
+
+    .popular-posts a:last-child{
+        position: relative;
+        left: 488px;
+        bottom: 105px;
+        width: unset;
+    }
+
+    #tags{
+        width: 890px;
+    }
+
+    #tags button{
+        font-size: 17px;
+    }
+
+    #blog {
+        width: 890px;
+        height: 360px;
+    }
+
+    #footer{
+        width: 100%;
+        height: 870px;
+    }
+
+    #footer-peta{
+        margin: 0 auto;
+        width: 890px;
+    }
+
+    #footer-about{
+        margin-left: 128px;
+    }
+
+    #footer-contact{
+        margin: 0px auto;
+        padding-top: 360px;
+        width: 890px;
+        float: unset;    
+    }
+
+    #footer-contact #name{
+        width: 890px;
+    }
+
+    #footer-contact #message{
+        width: 890px;
+    }
+}
+
+@media (min-width:1200px){}
