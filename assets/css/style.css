@@ -239,6 +239,52 @@ section{
     background-color: transparent;
 }
 
+#article-comments{
+    width: 97%;
+}
+
+#article-comments p{
+    float: left;
+    width: unset;
+}
+
+#article-comments p:nth-child(2){
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#article-comments p:nth-child(3){
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-left: 5px;
+}
+
+.commu{
+    width: 100%;
+}
+
+.commu img{
+    width: 9%;
+    height: 3.4vw;
+    float: left;
+}
+
+.commu a{
+    float: left;
+    color: black;
+    text-decoration: none;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    margin-left: 25px;
+}
+
+.commu p:nth-child(3){
+    font-size: 13px !important;
+    margin-top: 2px !important;
+}
+
 #left-section{
     width: 800px;
     float: left;
