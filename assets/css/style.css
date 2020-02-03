@@ -266,8 +266,8 @@ section{
 }
 
 .commu img{
-    width: 9%;
-    height: 3.4vw;
+    width: 65px;
+    height: 65px;
     float: left;
 }
 
@@ -278,11 +278,69 @@ section{
     font-size: 16px !important;
     font-weight: 600 !important;
     margin-left: 25px;
+    margin-bottom: 0 !important;
 }
 
 .commu p:nth-child(3){
     font-size: 13px !important;
     margin-top: 2px !important;
+    margin-bottom: 0;
+}
+
+.commu p:nth-child(4){
+    float: left;
+    color: grey;
+    max-width: 75%;
+    font-size: 13px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+#form-contact{
+    width: 97%;
+    margin-top: 70px;
+}
+
+#form-contact p:first-child{
+    font-size: 20px;
+    color: black;
+}
+
+#comment-left{
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.comment-form{
+    color: black;
+    width: 100%;
+    font-size: 14px !important;
+    margin: 5px 0 !important;
+    padding: 10px;
+    padding-right: 0;
+}
+
+#message-comment{
+    width: 54%;
+    font-size: 14px !important;
+    margin-left: 30px;
+    height: 138px;
+    margin-bottom: 0 !important;
+    margin-top: 7px !important;
+}
+
+#form-contact form p{
+    float: left;
+    font-size: 14px;
+    color: grey;
+}
+
+#form-contact form button{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    float: right;
 }
 
 #left-section{
@@ -731,6 +789,16 @@ footer{
     #footer-contact #message{
         width: 100%;
     }
+
+    #comment-left{
+        width: 100%;
+    }
+
+    #message-comment{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 @media (max-width: 1199px) and (min-width:899px){
@@ -828,6 +896,16 @@ footer{
 
     #footer-contact #message{
         width: 890px;
+    }
+
+    #comment-left{
+        width: 100%;
+    }
+
+    #message-comment{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 
