@@ -183,6 +183,31 @@ section{
     width: 100%;
 }
 
+#article p:first-child{
+    color: grey;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+
+#article :nth-child(2){
+    font-size: 34px;
+    font-weight: 350;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#article a:nth-child(3){
+    color: grey;
+    font-size: 14px;
+    text-decoration: none;
+    word-spacing: 6px;
+}
+
+#article img:nth-child(4){
+    width: 97%;
+    margin-top: 20px;
+}
+
 #left-section{
     width: 800px;
     float: left;
