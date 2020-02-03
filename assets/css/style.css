@@ -183,6 +183,10 @@ section{
     width: 100%;
 }
 
+#article p{
+    width: 97%;
+}
+
 #article p:first-child{
     color: grey;
     font-size: 13px;
@@ -206,6 +210,33 @@ section{
 #article img:nth-child(4){
     width: 97%;
     margin-top: 20px;
+}
+
+#article p:nth-child(5){
+    line-height: 23px;
+    color: grey;
+}
+
+#article p:nth-child(6){
+    margin-top: 50px;
+    line-height: 23px;
+    color: grey;
+}
+
+#article p:nth-child(7){
+    margin-top: 30px;
+    line-height: 23px;
+    color: grey;
+}
+
+#article button{
+    display: inline-block;
+    color: grey;
+    text-decoration: none;
+    border: 1px solid rgb(211, 211, 211);
+    padding: 10px 15px;
+    margin: 3px;
+    background-color: transparent;
 }
 
 #left-section{
